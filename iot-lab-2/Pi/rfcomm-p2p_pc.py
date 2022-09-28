@@ -4,7 +4,7 @@ import threading
 client_sock = None
 server_sock = None
 sock = None
-target_name = "DESKTOP-CSMTRA1"
+target_name = "raspberrypi"
 
 def start_server():
     server_sock=bluetooth.BluetoothSocket( bluetooth.RFCOMM )
