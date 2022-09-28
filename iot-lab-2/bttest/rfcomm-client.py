@@ -2,7 +2,7 @@ import bluetooth
 import json
 
 target_name = "raspberrypi"
-target_address = None
+target_address = E4:5F:01:C6:EC:08
 
 nearby_devices = bluetooth.discover_devices()
 

@@ -10,7 +10,7 @@ import sys
 import bluetooth
 
 
-addr = None
+addr = "E4:5F:01:C6:EC:08"
 
 if len(sys.argv) < 2:
     print("No device specified. Searching all nearby bluetooth devices for "
